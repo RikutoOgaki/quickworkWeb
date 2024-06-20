@@ -1,18 +1,18 @@
 .buttonStyle {
-    width: 15rem;
+    width: 16.5rem;
     height: 4.5rem;
-    border: 1px solid #efefef;
+    border: 1px solid #fefefe;
     background-color: #191919;
     border-radius: 46px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #efefef;
+    color: #fefefe;
     font-size: 1.5rem;
     transition: .2s ease-in-out;
 
     &:hover {
-        background-color: #efefef;
+        background-color: #fefefe;
         color: #191919;
     }
 }
