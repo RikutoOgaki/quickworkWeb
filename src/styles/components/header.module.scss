@@ -24,6 +24,8 @@
         align-items: center;
         flex-direction: column;
         cursor: pointer;
+        margin: 1rem 2rem 0 0;
+        z-index: 999;
 
         .menuLineTop {
             width: 3rem;
@@ -50,6 +52,85 @@
             border: 1px solid #fefefe;
             transform: rotate(45deg);
             transition: .3s ease-in-out;
+        }
+    }
+
+    .backColor {
+        display: none;
+    }
+
+    .backColorAfter {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        opacity: 1;
+        background-color: rgba($color: #ffffff, $alpha: .3);
+        z-index: 1;
+    }
+
+    .menuArea {
+        position: absolute;
+        top: 7rem;
+        right: 1rem;
+        transition: .5s ease-in-out;
+        opacity: 0;
+
+        .menuList {
+            width: 15rem;
+            height: 20rem;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            flex-direction: column;
+
+            .menulistItem {
+                margin-bottom: 1rem;
+
+                & ruby {
+                    font-size: 2rem;
+                    color: #fefefe;
+
+                    & rt {
+                        font-size: 1rem;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+
+    .menuAreaAfter {
+        position: absolute;
+        top: 7rem;
+        right: 1rem;
+        z-index: 999;
+        transition: .5s ease-in-out;
+        opacity: 1;
+
+
+        .menuList {
+            width: 15rem;
+            height: 20rem;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            flex-direction: column;
+
+            .menulistItem {
+                margin-bottom: 1rem;
+
+                & ruby {
+                    font-size: 2rem;
+                    color: #fefefe;
+
+                    & rt {
+                        font-size: 1rem;
+                        text-align: left;
+                    }
+                }
+            }
         }
     }
 }
