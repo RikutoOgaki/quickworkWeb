@@ -11,9 +11,7 @@ export default function Header() {
     return (
         <>
             <header className={style.headerWrap}>
-                <figure>
-                    <img src="/img/quickwork.svg" alt="ロゴ" />
-                </figure>
+                <figure></figure>
                 <div
                     className={style.hubergerMenu}
                     onClick={() => setMenuFlg(!menuFlg)}
