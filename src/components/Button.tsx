@@ -23,7 +23,7 @@ export default function Button(props: Props) {
             link: props.link,
             className: props.className
         })
-    }, [props])
+    }, [props]);
 
 
     return (
