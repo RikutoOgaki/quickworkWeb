@@ -1,0 +1,35 @@
+.movieContentWrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+
+    .movieContentTitle {
+        width: 100%;
+        height: 3rem;
+        text-align: center;
+
+        & ruby {
+            font-size: 2rem;
+            color: #fefefe;
+
+            & rt {
+                font-size: 1rem;
+                text-align: left;
+            }
+        }
+    }
+
+    .movieContentBox {
+        width: 100%;
+        height: 100vh;
+        background-color: #3F3F3F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -7,6 +7,7 @@ import Header from '@/components/Header'
 import ScrollEffect from "@/components/ScrollEffect";
 import MainView from '@/components/MainView'
 import Overview from "@/components/Overview";
+import MovieContent from "@/components/MovieContent";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         {/* <Button text="詳しく見る" /> */}
         <ScrollEffect />
         <Overview />
+        <MovieContent />
       </div>
     </>
   );
