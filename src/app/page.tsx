@@ -8,6 +8,7 @@ import ScrollEffect from "@/components/ScrollEffect";
 import MainView from '@/components/MainView'
 import Overview from "@/components/Overview";
 import MovieContent from "@/components/MovieContent";
+import Performance from "@/components/Performance";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <ScrollEffect />
         <Overview />
         <MovieContent />
+        <Performance />
       </div>
     </>
   );
