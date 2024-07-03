@@ -2,6 +2,7 @@
 
 import style from '@/styles/components/performance.module.scss'
 import { useState, useEffect } from 'react'
+import Button from '@/components/Button'
 
 export default function Performance() {
 
@@ -33,7 +34,7 @@ export default function Performance() {
                 </h3>
                 <div className={style.performanceContents}>
                     {items.map((v, idx) =>
-                        <div key={idx} style={v.id === 2 ? { alignItems: 'left' } : { alignItems: 'right' }}>
+                        <div key={idx} className={style.performanceContentsItems}>
                             <p className={style.performanceText}>{v.text}</p>
                             <div className={style.imgBox}>
                                 <figure>
@@ -43,6 +44,7 @@ export default function Performance() {
                         </div>
                     )}
                 </div>
+                <Button text='詳しく見る' />
             </div>
         </>
     )

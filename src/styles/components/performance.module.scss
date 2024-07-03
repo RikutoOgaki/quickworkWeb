@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 5rem;
 
     .performanceTitle {
         width: 100%;
@@ -28,5 +29,31 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+
+        .performanceContentsItems {
+            width: 30rem;
+            height: 15rem;
+
+            .performanceText {
+                color: #fefefe;
+                font-size: 2.5rem;
+            }
+
+            .imgBox {
+                width: 100%;
+                height: 4rem;
+                background-color: tomato;
+
+                & figure {
+                    width: 100%;
+                    height: 100%;
+
+                    & img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
     }
 }
