@@ -32,18 +32,20 @@ export default function Performance() {
                         <rp>(</rp><rt>Utility</rt><rp>)</rp>
                     </ruby>
                 </h3>
-                <div className={style.performanceContents}>
-                    {items.map((v, idx) =>
-                        <div key={idx} className={style.performanceContentsItems}>
-                            <p className={style.performanceText}>{v.text}</p>
+                {items.map((v, idx) =>
+                    <div key={idx} className={v.id === 2 ? style.performanceContentsLeft : style.performanceContentsRight}>
+                        <div className={style.performanceContentsItems}>
+                            <p className={style.performanceText}>
+                                {v.text}
+                            </p>
                             <div className={style.imgBox}>
                                 <figure>
                                     <img src={v.img} alt="対応する画像" />
                                 </figure>
                             </div>
                         </div>
-                    )}
-                </div>
+                    </div>
+                )}
                 <Button text='詳しく見る' />
             </div>
         </>
