@@ -9,6 +9,7 @@ import MainView from '@/components/MainView'
 import Overview from "@/components/Overview";
 import MovieContent from "@/components/MovieContent";
 import Performance from "@/components/Performance";
+import Slider from "@/components/Slider";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Overview />
         <MovieContent />
         <Performance />
+        <Slider />
       </div>
     </>
   );
