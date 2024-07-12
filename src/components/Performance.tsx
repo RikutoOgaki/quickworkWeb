@@ -9,17 +9,17 @@ export default function Performance() {
     const [items, setItems] = useState([
         {
             id: 1,
-            img: '',
+            img: '/img/QuickWorkSample.png',
             text: 'モーターによる移動速度の上昇'
         },
         {
             id: 2,
-            img: '',
+            img: '/img/QuickWorkSample.png',
             text: 'GPSによる位置情報の取得'
         },
         {
             id: 3,
-            img: '',
+            img: '/img/QuickWorkSample.png',
             text: 'Bluetoothでアプリと簡単接続'
         },
     ])

@@ -50,7 +50,7 @@ export default function Slider() {
                     <SliderButton text='<' />
                     <div className={style.sliderImgBox}>
                         <figure>
-                            <img src="" alt="対応する画像" />
+                            <img src="/img/QuickWorkSample.png" alt="対応する画像" />
                         </figure>
                     </div>
                     <SliderButton text='>' />
