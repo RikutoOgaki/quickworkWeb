@@ -1,6 +1,6 @@
 'use client'
 
-import style from '@/styles/components/mainview.module.scss'
+import style from '@/styles/components/common/mainview.module.scss'
 
 export default function MainView() {
     return (

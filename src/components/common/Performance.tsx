@@ -1,8 +1,8 @@
 'use client'
 
-import style from '@/styles/components/performance.module.scss'
+import style from '@/styles/components/common/performance.module.scss'
 import { useState, useEffect } from 'react'
-import Button from '@/components/Button'
+import Button from '@/components/template/Button'
 
 export default function Performance() {
 

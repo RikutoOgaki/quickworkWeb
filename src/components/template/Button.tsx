@@ -7,7 +7,7 @@ type Props = {
 }
 
 import { useState, useEffect } from 'react'
-import style from '@/styles/components/button.module.scss'
+import style from '@/styles/components/template/button.module.scss'
 
 export default function Button(props: Props) {
 

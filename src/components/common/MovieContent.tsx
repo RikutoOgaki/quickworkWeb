@@ -1,6 +1,6 @@
 'use client'
 
-import style from '@/styles/components/moivecontent.module.scss'
+import style from '@/styles/components/common/moivecontent.module.scss'
 
 export default function MovieContent() {
     return (

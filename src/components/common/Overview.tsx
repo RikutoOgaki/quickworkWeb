@@ -1,6 +1,6 @@
 'use client'
 
-import style from '@/styles/components/overview.module.scss'
+import style from '@/styles/components/common/overview.module.scss'
 
 export default function Overview() {
     return (

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 
-import style from '@/styles/components/header.module.scss'
+import style from '@/styles/components/template/header.module.scss'
 
 export default function Header() {
 

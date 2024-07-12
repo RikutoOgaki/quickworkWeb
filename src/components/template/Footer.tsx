@@ -1,6 +1,6 @@
 'use client'
 
-import style from '@/styles/components/footer.module.scss'
+import style from '@/styles/components/template/footer.module.scss'
 
 export default function Fotter() {
     return (

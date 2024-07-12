@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import style from '@/styles/components/scrolleffect.module.scss'
+import style from '@/styles/components/template/scrolleffect.module.scss'
 
 export default function ScrollEffect() {
     return (

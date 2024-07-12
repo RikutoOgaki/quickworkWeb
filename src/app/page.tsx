@@ -2,14 +2,14 @@
 
 import style from "@/styles/page.module.scss";
 
-import Button from '@/components/Button'
-import Header from '@/components/Header'
-import ScrollEffect from "@/components/ScrollEffect";
-import MainView from '@/components/MainView'
-import Overview from "@/components/Overview";
-import MovieContent from "@/components/MovieContent";
-import Performance from "@/components/Performance";
-import Slider from "@/components/Slider";
+import Button from '@/components/template/Button'
+import Header from '@/components/template/Header'
+import ScrollEffect from "@/components/template/ScrollEffect";
+import MainView from '@/components/common/MainView'
+import Overview from "@/components/common/Overview";
+import MovieContent from "@/components/common/MovieContent";
+import Performance from "@/components/common/Performance";
+import Slider from "@/components/common/Slider";
 
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import style from '@/styles/components/slider.module.scss'
+import style from '@/styles/components/common/slider.module.scss'
 
 
 // 画像データの型
