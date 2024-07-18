@@ -26,7 +26,7 @@
 
     .performanceContentsLeft {
         width: 90%;
-        height: 30rem;
+        height: 35rem;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -36,7 +36,7 @@
 
 
         .performanceContentsItems {
-            width: 35%;
+            width: 50%;
             height: 15rem;
 
             .performanceText {
@@ -64,7 +64,7 @@
 
     .performanceContentsRight {
         width: 90%;
-        height: 30rem;
+        height: 35rem;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -73,7 +73,7 @@
         margin-bottom: 3rem;
 
         .performanceContentsItems {
-            width: 35%;
+            width: 50%;
             height: 15rem;
 
             .performanceText {
