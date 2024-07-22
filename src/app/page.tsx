@@ -10,6 +10,8 @@ import Overview from "@/components/common/Overview";
 import MovieContent from "@/components/common/MovieContent";
 import Performance from "@/components/common/Performance";
 import Slider from "@/components/common/Slider";
+import Experience from "@/components/common/Experience";
+import Footer from '@/components/template/Footer'
 
 export default function Home() {
   return (
@@ -17,12 +19,13 @@ export default function Home() {
       <div className={style.quickWorkWrap}>
         <Header />
         <MainView />
-        {/* <Button text="詳しく見る" /> */}
         <ScrollEffect />
         <Overview />
         <MovieContent />
         <Performance />
         <Slider />
+        <Experience />
+        <Footer />
       </div>
     </>
   );
