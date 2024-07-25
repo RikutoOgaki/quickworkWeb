@@ -34,7 +34,18 @@ export default function Slider() {
 
     // 表示するようの画像（ダミーデータ）
     const [imgData, setImgData] = useState<ImgData>([
-
+        {
+            id: 1,
+            img: ''
+        },
+        {
+            id: 2,
+            img: ''
+        },
+        {
+            id: 3,
+            img: ''
+        },
     ])
 
 

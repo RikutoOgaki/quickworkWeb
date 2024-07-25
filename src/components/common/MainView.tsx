@@ -7,7 +7,7 @@ export default function MainView() {
         <>
             <div className={style.mainViewWrap}>
                 <figure>
-                    <img src="/img/QuickWorkSample.png" alt="mainView" />
+                    {/* <img src="/img/QuickWorkSample.png" alt="mainView" /> */}
                 </figure>
             </div>
         </>

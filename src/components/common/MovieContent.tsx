@@ -12,8 +12,8 @@ export default function MovieContent() {
                     </ruby>
                 </h3>
                 <div className={style.movieContentBox}>
-                    <video controls width="1048">
-                        <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
+                    <video width="1048">
+                        <source src="/" type="video/mp4" />
                     </video>
                 </div>
             </div>
